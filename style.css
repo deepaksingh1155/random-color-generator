@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg,#6C63FF,#000);
+    transition: 0.5s ease;
+}
+.card{
+    width: 100%;
+    max-width: 400px;
+    padding: 30px 22px;
+    border-radius: 31px;
+    background: rgba(255, 255,255, 0.2);
+    box-shadow: 0 10px 35px rgba(0, 0,0, 0.35);
+    text-align: center;
+}
+.icon{
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+ h1{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px;
+ }
+ .subtitle{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 15px;
+    margin-bottom: 22px;
+ }
+ .color-box{
+    width: 100%;
+    height: 195px;
+    border: 5px solid rgba(255, 255, 255, 0.25);
+   margin-bottom: 23px;
+    background:#6C63FF;
+ }
+ .code-box{
+    background-color: rgba(0, 0, 0, 0.29);
+    padding: 14px;
+    border-radius: 18px;
+    color: wheat;
+    margin-bottom: 15px;
+ }
+ .code-title{
+    font-size: 13px;
+    opacity: 0.8;
+    margin-bottom: 5px;
+ }
+ .code{
+    font-size: 18px;
+    font-weight: 600;
+
+ }
+ button{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 19px;
+    font-size: 15px;
+    font-weight: 750;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 13px;
+ }
+ .generate-btn{
+    background: white;
+    color: #000;
+
+ }
+ .copy-btn{
+    background: transparent;
+    color: white;
+    border: 2px solid rgba(255, 255, 255,0.25);
+ }
+ button :hover{
+    transform: scale(1.05);
+ }
+ @media(max-width:470px){
+    h1{
+        font-size: 28px;
+
+    }
+    .color-box{
+        height: 160px;
+    }
+ }
+ footer{
+  margin-top:20px;
+  color:white;
+  font-size:14px;
+  opacity:0.7;
+}

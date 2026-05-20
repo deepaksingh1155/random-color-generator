@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RANDOM COLOR GENERATER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+     <div class="icon">🎨</div>
+        <h1>Color Generator</h1>
+
+        <p class="subtitle">
+            Generate HEX & RGB colors Istantly
+        </p>
+
+        <div class="color-box"  id="colorBox"> </div>
+        <div class="code-box">
+            <div class="code-title">HEX CODE</div>
+            <div class="code" id="hexCode"> #6c63ff </div>
+        </div>
+          <div class="code-box">
+            <div class="code-title">RGB CODE</div>
+            <div class="code" id="rgbCode">rgb(108,99,255)</div>
+        </div>
+         <button class="generate-btn" onclick="generateColor()"> Generate color</button>
+         <button class="copy-btn" onclick="copyHex()">  Copy HEX Code</button>
+         <button class="copy-btn" onclick="copyRGB()">  Copy RGB Code</button>
+         <footer>
+  © 2026 Deepak Singh | Random Color Generator
+</footer>
+    </div>
+     <script src="app.js"></script>
+</body>
+</html>
